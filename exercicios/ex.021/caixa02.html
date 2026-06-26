@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(133, 133, 133);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: grey;
+            color: black;
+            padding: 3px;
+            box-shadow: 3px 3px 3px black;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline white;
+            
+        }
+        
+        main{
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+          
+        }
+        article{
+            background-color: rgb(192, 192, 192); 
+            border-radius: 8px;
+        }
+        footer{
+            background-color: black;
+        }
+        footer > p{
+            text-align: center;
+            font-weight: bolder;
+            color: white;
+            margin: 0px;
+            padding: 5px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: brown;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>  
+            <a href="#">Link</a>      
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+            <a href="#">Link</a>       
+            
+           
+        </nav>
+    </header>
+
+    <main>
+       <section id="assunto">
+            <p>Esporte, Política e Tecnologia</p>
+       </section>
+
+       <section id="noticia">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita possimus culpa. Quidem voluptatem pariatur totam corporis dignissimos est, ab reiciendis laborum ducimus nisi, excepturi repudiandae aliquam cumque ullam ea!</p>
+
+                 <aside>Artigo escrito por José Ratu</aside>
+            </article>
+
+       </section>
+
+    </main>
+
+    <footer>
+        <p>:D</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

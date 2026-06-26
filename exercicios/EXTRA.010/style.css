@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "fonte";
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+*{
+    margin: auto;
+}
+body{
+    background-color:#84E1AD;
+    margin: 0px;
+    
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(138, 206, 138), rgb(1, 85, 1));
+    height: 200px;
+}
+h1#principal{
+    color: rgba(255, 255, 255, 0.836);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px  black;
+    margin-top: 0px;
+    padding-top: 21.440px;
+}
+p#primeiroparagrafo{
+    color: rgba(255, 255, 255, 0.692);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-weight: lighter;
+}
+p#paragrafodelinks > a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+p#paragrafodelinks > a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+p#paragrafodelinks{
+    margin-bottom: 0px;
+}
+main >h1 {
+    font-family: "fonte",Arial, Helvetica, sans-serif;
+    color: green;
+    margin-left: 10px;
+    margin-top:0px;
+    padding: 10px;
+}
+main >p{
+    text-align:justify;
+    text-indent: 10px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding:10px;
+}
+main{
+    margin: 0px 50px 50px 50px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+   
+
+}
+a{
+    color:green;
+    text-decoration:none;
+}
+h2{
+    font-family: "fonte", Arial, Helvetica, sans-serif;
+    color: green;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    padding:0px 10px 0px 10px;
+    background-image:linear-gradient(to right,  rgba(181, 248, 181, 0.877) , white);
+    
+}
+img{
+    display: block;
+    margin:auto;
+}
+div{
+    background-image:green;
+    
+}
+p{
+     text-align:justify;
+    text-indent: 10px;
+    text-align: center;
+}
+h4{
+    background-color:#2FA866;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 7px 10px 7px 10px ;
+    margin: 5px 0px 0px 0px;
+}
+div#final{
+    background-color:#C5EBD6;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    height:470px;
+}
+div#final > p{
+    margin:0px 0px 10px 0px;
+    text-align: justify;
+    text-align: center;
+}
+ul{
+    column-count: 2;
+}
+p#paragrafofinal{
+    padding: 10px 10px 20px 10px;
+    text-align:justify;
+}
+footer{
+    background-color:#1A5C38;
+}
+footer > p{
+    color: white;
+}
+.video{
+    background-color: #1A5C38;
+    margin: 0px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
