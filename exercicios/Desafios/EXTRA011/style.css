@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family:Letra Cursiva;
+    src:url(https://fonts.gstatic.com/s/sriracha/v16/0nkrC9D4IuYBgWcI9NbLTwHSoQ.woff2) format('woff2');
+}
+
+
+header{
+    background-color: black;
+    padding: 15px;
+}
+header h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+header nav{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+header a{
+    color:white;
+    font-size: medium;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 2px;
+}
+header a:hover{
+    text-decoration: underline white;
+}
+
+main section{
+    
+}
+section p{
+    margin: 20px 0px 10px 30px;
+    font-size: x-large;
+    font-family: "Letra Cursiva" , cursive;
+}
+.imagem{
+
+
+}
+#imagem01{
+    padding: 10px 0px 10px 0px;
+    background-position: right center;
+    background-size: cover;
+    background-color: black;
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagem p{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: rgba(24, 34, 16, 0.493);
+}
+#imagem02{
+    padding: 10px 0px 10px 0px;
+    background-position: right center;
+    background-size: cover;
+    background-color: black;
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    padding: 7px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
