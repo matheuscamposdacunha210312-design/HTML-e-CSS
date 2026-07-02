@@ -33,18 +33,10 @@ header a{
 header a:hover{
     text-decoration: underline white;
 }
-
-main section{
-    
-}
 section p{
     margin: 20px 0px 10px 30px;
     font-size: x-large;
     font-family: "Letra Cursiva" , cursive;
-}
-.imagem{
-
-
 }
 #imagem01{
     padding: 10px 0px 10px 0px;
