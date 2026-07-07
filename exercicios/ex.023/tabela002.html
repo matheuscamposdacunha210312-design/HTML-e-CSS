@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        thead, tfoot{
+            text-align: center;
+            background-color: grey;
+            color: white;
+            font-weight: bold;
+        }
+        
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        .num{
+            text-align: center;
+        }
+        caption{
+            font-size: 1.2em;
+            background-color: lightgrey;
+            border-radius: 7px 7px 0px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDESações sobre o uso de tabelas grandes
+             
+    CAPTION
+    THEAD
+        TR, TD, TH
+    TBODY
+        TR, TD, TH
+    TFOOT
+        TR, TD, TH
+    -->
+
+
+        <table>
+            <caption>Populações Dos Estados Brasileiros</caption>
+            <thead>
+                <tr>
+
+                    <th> Estado</th>
+                    <th> População</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num" >45.000.000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21.000.000</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17.000.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> Total</td>
+                    <td class="num">83.000.000</td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
