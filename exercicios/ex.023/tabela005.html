@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        body{
+            font-family:  Verdana, sans-serif;
+        }
+        table{
+            width: 450px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        tbody .destaque:hover{
+            background-color: grey;
+            transition-duration: 0.1s;
+            color: white;
+        }
+        .cnome{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="destaque">
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>27</td>
+                <td>Jornalista</td>
+            </tr>
+             <tr class="destaque
+            ">
+                <td>Mario</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>Engenheiro</td>
+            </tr>
+             <tr class="destaque
+            ">
+                <td>Lucas</td>
+                <td>Masculino</td>
+                <td>24</td>
+                <td>Vendedor</td>
+            </tr>
+             <tr class="destaque
+            ">
+                <td>Lucia</td>
+                <td>Feminino</td>
+                <td>29</td>
+                <td>Maquiadora</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
